@@ -1,0 +1,108 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+.loginImg {
+    width: 50%;
+}
+
+.logoImg {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 200px;
+    bottom: 60px;
+}
+
+.loginContent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #414141;
+}
+
+.card h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: rgba(65, 65, 65, 0.6);
+}
+
+.card input {
+    width: 452px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(196, 196, 196, 0.6);
+    border-radius: 4px;
+    margin-top: 24px;
+    padding-left: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card input::placeholder {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(65, 65, 65, 0.6);
+}
+
+.btnMasuk {
+    width: 452px;
+    height: 44px;
+    margin-top: 60px;
+    background: #128ECC;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.persu {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-top: 32px;
+    color: rgba(76, 76, 76, 0.9);
+}
+
+.persu span {
+    cursor: pointer;
+    color: #128ecce2;
+}

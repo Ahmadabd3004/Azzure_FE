@@ -1,0 +1,884 @@
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main2 {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    margin-top: 25px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1 {
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 150px;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.btnKeluar {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+
+    color: #128ECC;
+}
+
+.content {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    width: 610px;
+    margin-top: 90px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title img {
+    cursor: pointer;
+}
+
+.section1 h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.7);
+}
+
+.section1 hr {
+    margin-top: 30px;
+    background: #EBE8E8;
+}
+
+.section1Active {
+    width: 610px;
+    margin-top: 90px;
+}
+
+.section1Active h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #128ECC;
+}
+
+.section1Active hr {
+    margin-top: 30px;
+    margin-bottom: 6px;
+    border: 1px solid #EBE8E8;
+}
+
+.section2 {
+    width: 610px;
+    margin-top: 90px;
+}
+
+.section2 h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+}
+
+.section2 hr {
+    margin-top: 30px;
+    border: 1px solid #EBE8E8;
+}
+
+.persuAdd {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+}
+
+.persuBox {
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.persuBox img {
+    width: 20px;
+    height: 20px;
+}
+
+.persuAdd h1 {
+    margin-left: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #128ECC;
+}
+
+.persuAdd h2 {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.7);
+}
+
+.btnKirim {
+    cursor: pointer;
+    margin-top: 40px;
+    width: 610px;
+    height: 44px;
+    background: #128ECC;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.btnSimpanDataPegawai {
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 140px;
+    height: 42px;
+    background: #128ECC;
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+.rpp {
+    margin-top: 20px;
+    width: 610px;
+    height: 80px;
+}
+
+.rpp h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+}
+
+.rpp h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+}
+
+.rpp h3 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.7);
+}
+
+.rpp hr {
+    margin-top: 18px;
+    border: 1px solid #F5F2F2;
+}
+
+.sp {
+    margin-top: 20px;
+    width: 610px;
+    height: 80px;
+}
+
+.sp h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+}
+
+.sp h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+}
+
+
+.sp hr {
+    margin-top: 18px;
+    border: 1px solid #F5F2F2;
+}
+
+
+
+
+.btnRP {
+    cursor: pointer;
+    margin-top: 24px;
+    width: 260px;
+    height: 34px;
+    border: 1px solid rgba(196, 196, 196, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnRP img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.btnRP h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #128ECC;
+
+}
+
+.btnSR {
+    cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 34px;
+    border: 1px solid rgba(196, 196, 196, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnSR img {
+    width: 18px;
+    height: 18px;
+}
+
+.btnSR h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #128ECC;
+
+}
+
+.rpForm {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpFormCard {
+    position: relative;
+    width: 610px;
+    height: 476px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.rpFormTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rpFormTitle h1 {
+    width: 200px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+
+}
+
+.rpFormTitle img {
+    width: 20px;
+    height: 20px;
+}
+
+.srForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.srFormCard {
+    position: relative;
+    width: 610px;
+    height: 476px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.srFormTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.srFormTitle h1 {
+    width: 200px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.9);
+
+}
+
+.srFormTitle img {
+    width: 20px;
+    height: 20px;
+}
+
+.inputForm label {
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.8);
+    display: block;
+}
+
+
+.inputForm input {
+    margin-top: 10px;
+    display: block;
+    width: 570px;
+    height: 38px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inputForm input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    background: url('../../public/calendar.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.inputForm input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.dropdownForm {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+
+.btnHapus {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btnHapus img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.btnHapus h1 {
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.65);
+}
+
+.btnSimpan {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 121px;
+    height: 38px;
+    background: #128ECC;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.notifDel {
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifKirim {
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.notifDelCard {
+    position: relative;
+    width: 450px;
+    height: 292px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.notifKirimCard {
+    position: relative;
+    width: 464px;
+    height: 412px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.notifDelCard h1 {
+    position: absolute;
+    top: 50px;
+    width: 256px;
+    height: 54px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.notifKirimCard h1 {
+    position: absolute;
+    top: 160px;
+    width: 256px;
+    height: 54px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.notifDelCard h2 {
+    position: absolute;
+    top: 116px;
+    margin-top: 12px;
+    width: 340px;
+    height: 38px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.7);
+}
+
+.notifKirimCard h3 {
+    position: absolute;
+    top: 100px;
+    margin-top: 100px;
+    width: 400px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.6);
+}
+
+
+.btnCancel {
+    cursor: pointer;
+    position: absolute;
+    top: 204px;
+    left: 43px;
+    width: 172px;
+    height: 38px;
+    border: 1px solid #128ECC;
+    border-radius: 4px;
+
+    letter-spacing: 0.02em;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #128ECC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnCancelKirim {
+    cursor: pointer;
+    position: absolute;
+    top: 204px;
+    left: 43px;
+    width: 121px;
+    height: 38px;
+    border: 1px solid #128ECC;
+    border-radius: 4px;
+
+    letter-spacing: 0.02em;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #128ECC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btnHapusData {
+    cursor: pointer;
+    position: absolute;
+    top: 204px;
+    right: 43px;
+    width: 172px;
+    height: 38px;
+
+    background: #128ECC;
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnHapusDataKirim {
+    cursor: pointer;
+    position: absolute;
+    top: 204px;
+    right: 43px;
+    width: 121px;
+    height: 38px;
+
+    background: #128ECC;
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successDel {
+    position: absolute;
+    z-index: 6;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.notifSuccesDelCard {
+    position: relative;
+    width: 464px;
+    height: 371px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.circle {
+    margin-top: 74px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #E8F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleKirim {
+    margin-top: 50px;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: #E8F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifSuccesDelCard h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+
+.dropdown {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.jenjang {
+    position: absolute;
+    border-radius: 4px;
+    width: 570px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    overflow: auto;
+    overflow-x: hidden;
+}

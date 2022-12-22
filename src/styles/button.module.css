@@ -1,0 +1,49 @@
+.buttonPrimary {
+    background-color: aquamarine;
+}
+
+.buttonDanger {
+    background-color: red;
+    color: white;
+}
+
+.btnDetail {
+    cursor: pointer;
+    height: 36px;
+    padding: 8px 30px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #128ECC;
+    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #128ECC;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btnPrimary {
+    cursor: pointer;
+    height: 36px;
+    padding: 8px 30px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #128ECC;
+    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #128ECC;
+}

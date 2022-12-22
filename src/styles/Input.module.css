@@ -1,0 +1,145 @@
+.provinsi {
+    border-radius: 4px;
+    width: 610px;
+    height: 200px;
+    border: 1px solid #E0E0E0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.provinsiForm {
+    border-radius: 4px;
+    position: absolute;
+    z-index: 99999;
+    width: 570px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.item {
+    width: 609px;
+    height: 38px;
+    border-radius: 4px;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #414141b3;
+    padding: 10px 0 5px 9px;
+}
+
+.itemForm {
+    width: 570px;
+    height: 38px;
+    border-radius: 4px;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #414141b3;
+    padding: 10px 0 5px 9px;
+}
+
+
+.item:hover {
+    background-color: #128ecc32;
+    color: white;
+}
+
+
+.inputSection input {
+    margin-top: 6px;
+    width: 610px;
+    height: 38px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inputSectionForm input {
+    margin-top: 6px;
+    width: 570px;
+    height: 38px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.inputSection input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    background: url('../../public/calendar.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.inputSection input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.inputSectionForm input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #414141;
+}
+
+.inputSection label {
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.8);
+    display: block;
+}
+
+.inputSectionForm label {
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: rgba(65, 65, 65, 0.8);
+    display: block;
+}
+
+
+
+.dropdown {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
